@@ -12,4 +12,5 @@ $firstname = mb_str_split($splitname[1]);
 $patronymic = mb_str_split($splitname[2]);
 
 print "Сокращенное ФИО: $splitname[0] $firstname[0]. $patronymic[0].\n";
+
 ?>
